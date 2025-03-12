@@ -1,8 +1,13 @@
 import Banner from "./Banner";
+import Cart from "./Cart";
 
 function App() {
-  return <Banner />
-   
+  return (
+    <>
+      <Banner />
+      <Cart />
+    </>
+  );
 }
 
 export default App;
